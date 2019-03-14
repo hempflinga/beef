@@ -3,29 +3,80 @@
 	<head>
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+		<link rel="shortcut icon" type="image/x-icon" href="round-music_note-24px-01.png" alt="Favicon"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		
+		<style>
+			.siteicon {
+				font-size: 9rem;
+				color: #FF2D55;
+				text-shadow: 0 2px 8px rgba(0,0,0,0.30), 0 2px 20px rgba(255,45,85,.7);
+			}
+			
+			.btn:hover, .btn-large:hover, .btn-small:hover {
+				background-color: #FF2D55;
+			}
+
+
+			.appl-red-bg {
+				background-color: #FF2D55;
+			}
+			
+			.lTitle {
+				color: #FF2D55;
+			}
+		</style>
 	</head>
 	<body>
+	<header>
+			<div class="container">
+				<div class="row">
+					<div class="col s12 m8 offset-m1 xl7 offset-xl3">
+						<h1 class="header">Playlist Randomizer</h1>
+						<p class="blue-grey-text">The best playlists according to <a href="https://www.vulture.com/2015/10/50-best-playlists-on-apple-music.html">Vulture</a>, <a href="https://www.complex.com/music/2019/01/best-apple-music-playlists-right-now/">Complex</a>, and <a href="https://uproxx.com/music/best-apple-music-playlists-right-now-2018/">Uproxx</a>.</p>
+					</div>
+				</div>
+			</div>
+	</header>
+	<ul id="navvyboi" class="sidenav sidenav-fixed with-header" style="transform: translateX(0px);">
+		<li class="collection-header center-align"> 
+			<h1>
+				<i class="material-icons siteicon">
+					music_note
+				</i>
+			</h1>
+		</li>
+		<li>
+			<div class="divider"></div>
+		</li>
+		<li class="collection-item center-align lTitle">
+			<h5>Playlists</h5>
+			<div class="divider"></div>
+		</li>
+		
+		
+	</ul>
+	<main>
 		<div class="container">
-			<code>
-			<pre id="pre"></pre>
+			<div class="row">
+				<div class="col s12 m8 offset-m1 xl7 offset-xl3">
+					<iframe id="pList" allow="autoplay *; encrypted-media *;" frameborder="0" height="500px" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"></iframe>
+				</div>
+			</div>
+			<div class="row center-align">
+				<a class="waves-effect waves-light btn appl-red-bg" onClick="rList()"><i class="material-icons right">shuffle</i>Random List</a>
+			</div>
 			
-			</code>
 		</div>
 		
-		
+	</main>
+
 <script>
-var a = document.getElementsByTagName('a');
-var pre = document.getElementById('pre');
+var navvyboi = document.getElementById('navvyboi');
+var pList = document.getElementById('pList');
 var vultureSource = ';https://www.vulture.com/2015/10/50-best-playlists-on-apple-music.html' + ';Vulture: The 50 Best Playlists on Apple Music';
 var complexSource = ';https://www.complex.com/music/2019/01/best-apple-music-playlists-right-now/' + ';The Best Apple Music Playlists Right Now';
-
-var slides = document.getElementsByClassName('article-list__slide list-slide');
-
-var t = '';
-
-var aTag = new RegExp('src\=\"https\:\/\/embed.*?pl\..*?"','g');
-var complex = story.innerHTML.match(/\<a href.*?pl\..*?\"\>.*?\<\/a\>/g);
+var uproxxSource = ';https://uproxx.com/music/best-apple-music-playlists-right-now-2018/;All Of The Best Apple Music Playlists That You Need To Be Listening To",';
 
 var vultureArray = ["https://embed.music.apple.com/us/playlist/intro-to-alice-coltrane/pl.ea8a00ee10e94d7a9002583a337cbd3f;Intro to Alice Coltrane;https://www.vulture.com/2015/10/50-best-playlists-on-apple-music.html;Vulture: The 50 Best Playlists on Apple Music",
 "https://embed.music.apple.com/us/playlist/melvins-deep-cuts/pl.adc8f720731842f8ac2eaf6d00ac38bd;Melvins: Deep Cuts;https://www.vulture.com/2015/10/50-best-playlists-on-apple-music.html;Vulture: The 50 Best Playlists on Apple Music",
@@ -101,26 +152,67 @@ var complexArray = ["https://embed.music.apple.com/us/playlist/breaking-hip-hop/
 "https://embed.music.apple.com/us/playlist/slow-down-2-speed-up/pl.4a5a2124f37c41a9a93d09e6f610d973;Slow Down 2 Speed Up;https://www.complex.com/music/2019/01/best-apple-music-playlists-right-now/;The Best Apple Music Playlists Right Now",
 "https://embed.music.apple.com/us/playlist/songs-of-the-summer/pl.34c6bf42a176492abb918edb57b565e9;Songs of the Summer;https://www.complex.com/music/2019/01/best-apple-music-playlists-right-now/;The Best Apple Music Playlists Right Now",
 "https://embed.music.apple.com/us/playlist/heartbreak-pop/pl.91f43a875d694022ba4b338fce6a8c48;Heartbreak Pop;https://www.complex.com/music/2019/01/best-apple-music-playlists-right-now/;The Best Apple Music Playlists Right Now"];
+var uproxxArray = ["https://embed.music.apple.com/us/playlist/best-of-the-week/pl.2b0e6e332fdf4b7a91164da3162127b5;Best Of The Week (Eclectic);https://uproxx.com/music/best-apple-music-playlists-right-now-2018/;All Of The Best Apple Music Playlists That You Need To Be Listening To",			
+			"https://embed.music.apple.com/us/playlist/ep-62-ovo-sound-radio-playlist/pl.fd34c1a561614a3ea75c3ccf77a53676;Ovo Sound Radio (Hip-Hop, Curated By Drake);https://uproxx.com/music/best-apple-music-playlists-right-now-2018/;All Of The Best Apple Music Playlists That You Need To Be Listening To",			
+			"https://embed.music.apple.com/us/playlist/weekend-worthy/pl.3baaa090b668436797672b2dfd43d9ce;Weekend Worthy (Upbeat Eclectic);https://uproxx.com/music/best-apple-music-playlists-right-now-2018/;All Of The Best Apple Music Playlists That You Need To Be Listening To",			
+			"https://embed.music.apple.com/us/playlist/elton-johns-playlist/pl.9192e00c1da741719f7b4816d164031e;Elton John’s Rocket Hour (Electic Pop, Curated By Elton John);https://uproxx.com/music/best-apple-music-playlists-right-now-2018/;All Of The Best Apple Music Playlists That You Need To Be Listening To",			
+			"https://embed.music.apple.com/us/playlist/joe-kays-playlist/pl.d0d8631fa7a940a1a2525b1572195b1e;Soulection (Future Soul, Curated By Joe Kay);https://uproxx.com/music/best-apple-music-playlists-right-now-2018/;All Of The Best Apple Music Playlists That You Need To Be Listening To",			
+			"https://embed.music.apple.com/us/playlist/ep-65-st-vincents-mixtape-delivery-service/pl.9624284e169a4e24a8d63259447e8f5d;St. Vincent Mixtape Delivery Service (Eclectic, Curated By St. Vincent);https://uproxx.com/music/best-apple-music-playlists-right-now-2018/;All Of The Best Apple Music Playlists That You Need To Be Listening To",	
+			"https://embed.music.apple.com/us/playlist/jax-jones-playlist/pl.04bc8fd7ca0a4e2ea6cecde8d4e8d020;House Work Radio (Dance, Curated By Jax Jones);https://uproxx.com/music/best-apple-music-playlists-right-now-2018/;All Of The Best Apple Music Playlists That You Need To Be Listening To",			
+			"https://embed.music.apple.com/us/playlist/untitled/pl.0e91490f3310408eb1186fc9befb3d11;Untitled (Indie);https://uproxx.com/music/best-apple-music-playlists-right-now-2018/;All Of The Best Apple Music Playlists That You Need To Be Listening To",			
+			"https://embed.music.apple.com/us/playlist/blonded-007/pl.a4c8180cc99041deab45f21dbde3e251;Blonded Radio (Eclectic, Curated By Frank Ocean);https://uproxx.com/music/best-apple-music-playlists-right-now-2018/;All Of The Best Apple Music Playlists That You Need To Be Listening To",			
+			"https://embed.music.apple.com/us/playlist/lars-ulrichs-playlist/pl.a9210cb171294f1f91be43a7e2005d32;It’s Electric (Rock, Curated By Lars Ulrich);https://uproxx.com/music/best-apple-music-playlists-right-now-2018/;All Of The Best Apple Music Playlists That You Need To Be Listening To",			
+			"https://embed.music.apple.com/us/playlist/alison-wonderlands-one-mix-playlist/pl.15d57290309341f68fac92053cd5bd27;One Mix (Dance);https://uproxx.com/music/best-apple-music-playlists-right-now-2018/;All Of The Best Apple Music Playlists That You Need To Be Listening To",			
+			"https://embed.music.apple.com/us/playlist/the-pharmacy-playlist/pl.34f11425bfe3402a8ea0ff4c81626c8e;The Pharmacy (Hip-Hop, Curated By Dr. Dre);https://uproxx.com/music/best-apple-music-playlists-right-now-2018/;All Of The Best Apple Music Playlists That You Need To Be Listening To",			
+			"https://embed.music.apple.com/us/playlist/julie-adenugas-playlist/pl.37d099a8834d4db8a59a30c5a31fc0b6;Julie Adenuga’s Playlist;https://uproxx.com/music/best-apple-music-playlists-right-now-2018/;All Of The Best Apple Music Playlists That You Need To Be Listening To",			
+			"https://embed.music.apple.com/us/playlist/mike-ds-playlist/pl.9e12c7e162f24fd89e735e64af16e6bb;The Echo Chamber (Eclectic, Curated By Mike D);https://uproxx.com/music/best-apple-music-playlists-right-now-2018/;All Of The Best Apple Music Playlists That You Need To Be Listening To",			
+			"https://embed.music.apple.com/us/playlist/charli-xcxs-playlist/pl.e6a85b9150424d7d8bc41476fcf1f699;The Candy Shop (Pop, Curated By Charli XCX);https://uproxx.com/music/best-apple-music-playlists-right-now-2018/;All Of The Best Apple Music Playlists That You Need To Be Listening To"];
+			
+var arrarr = [vultureArray,complexArray,uproxxArray];
 
-//console.log(slides);
+Array.prototype.randomValue = function(){
+    return this[Math.floor(Math.random()*this.length)];
+};
 
-//"https://embed.music.apple.com/us/playlist/intro-to-alice-coltrane/pl.ea8a00ee10e94d7a9002583a337cbd3f;Intro to Alice Coltrane;https://www.vulture.com/2015/10/50-best-playlists-on-apple-music.html;Vulture: The 50 Best Playlists on Apple Music"
-
-for (i = 0;i<slides.length;i++) {
-	
-	var title = slides[i].children[0].innerHTML;
-	var link = slides[i].children[1].children[0].children[0].href;
-	var x = '"' + link + ';' + title + complexSource + '",\n';
-	t += x;
-	console.log();
+function choosePlist(elem) {
+	pList.src = elem.getAttribute('data-embedLink');
+	//console.log(elem.getAttribute('data-embedLink'));
 }
-//.replace(aTag,'')
 
-//console.log(vultureSongs.replace(aTag,''));
-//pre.innerHTML = 'var vultureArray = [' + t + '];';
-pre.innerHTML = 'var complexArray = [' + t + '];';
+function allPlaylists() {
+	for (i=0;i<vultureArray.length;i++) {
+		var embedLink = vultureArray[i].split(';')[0];
+		var ListName = vultureArray[i].split(';')[1];
+		var srcLink = vultureArray[i].split(';')[2];
+		var title = vultureArray[i].split(';')[3];
+		
+		var c = 'collection-item';
+		var li = document.createElement('li');
+		navvyboi.appendChild(li);
+		
+		var a = document.createElement('a');
+		li.appendChild(a);
+		li.setAttribute('class','collection-item')
+		
+		var t = document.createTextNode(ListName);
+		a.appendChild(t);
+		a.setAttribute('class','truncate')
+		a.setAttribute('data-embedLink',embedLink)
+		a.setAttribute('data-ListName',ListName)
+		a.setAttribute('data-srcLink',srcLink)
+		a.setAttribute('data-title',title)
+		a.setAttribute('href','#')
+		a.setAttribute('onClick','choosePlist(this)')
+	}
+}
 
+allPlaylists();
+function rList() {
+	pList.src = arrarr.randomValue().randomValue().split(';')[0];
+}
 
+rList();
+//console.log(arrarr.randomValue());
 </script>
   </body>
 </html>
