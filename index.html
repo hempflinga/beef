@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Blank Documents</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+		
+	</head>
+	
+	<body>
+	
+	
+	
+		<div class="container">
+			<div class="jumbotron">
+				<h1>index</h1>
+			</div>
+			<div class="list-group">
+				<a href="blank-pages.html" class="list-group-item list-group-item-action">Blank Page</a>
+			</div>
+		</div>
+			
+
+
+<textarea id="materializePage">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+	&lt;head&gt;
+		&lt;meta charset="utf-8"&gt;
+		&lt;title&gt;Materialize&lt;/title&gt;
+		&lt;link rel="shortcut icon" type="image/x-icon" href="https://getbootstrap.com/docs/4.0/assets/img/favicons/favicon-32x32.png" alt="Favicon"&gt;
+		&lt;link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"&gt;
+		&lt;link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css"&gt;
+		&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"&gt;
+		&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"/&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+	
+		&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"&gt;&lt;/script&gt;
+	&lt;/body&gt;
+&lt;/html&gt;
+</textarea>
+		
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		
+		<script>
+			var encodedPage = encodeURIComponent(document.getElementById("bootstrapPage"));
+			var code = document.getElementById('code');
+			
+			//<span class="attributeGreen">$1</span>
+			//code.innerHTML = code.innerHTML.replace(/(\&lt\;\/.*?\&gt\;)/g,'<span class="endtag">$1</span>');
+			function copyText(elem) {
+				var txt = document.getElementById(elem);
+				txt.select();
+				document.execCommand("copy");
+			}
+			console.log();
+		</script>
+	</body>
+</html>
+
+
