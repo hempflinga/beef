@@ -196,7 +196,24 @@ for (i = 0; i &lt; NNNN.length; i++) {
 				txt.select();
 				document.execCommand("copy");
 			}
-			console.log();
+			
+			var faUrl1 = 'https://use.fontawesome.com/releases/v';
+			var faUrl2  = '/css/all.css';
+			var v1 = [];
+			
+			for (i=0; i<10;i++){
+				for (ii=0; ii<10;ii++){
+					for (iii=0; iii<10;iii++){
+						var ver = i + '.' + ii + '.' + iii;
+						
+						$('body').append('<link rel="stylesheet" href="https://use.fontawesome.com/releases/v1.2.0/css/all.css<\/link>');
+						
+					}
+				}
+			}
+			
+			console.log(v1);
+				
 		</script>
 	</body>
 </html>
