@@ -8,8 +8,57 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 		<link rel="stylesheet" href="fonts.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<style>
+		
+			.chart-container {
+				display: flex;
+				text-align: center;
+				justify-content: space-between;
+				width: 100%;
+				 
+			}
+			
+			.chart-container ul {
+				display: flex;
+				list-style: none;
+			}
+			
+			.chart-container ul li {
+				outline: 1px solid #707070;
+				padding: 25px;
+			}
+			
+		</style>
 	</head>
 	<body>
+	
+		<div class="chart-container">
+			<ul class="heirarchy">
+				<li>RushCare® Super User
+					<ul>
+						<li>User Admin
+							<ul>
+								<li>User (Rush Employee)</li>
+								<li>Read-Only User (Rush Employee)</li>
+							</ul>
+						</li>
+						<li>Dealer Admin
+							<ul>
+								<li>User (Customer)</li>
+								<li>Read-Only User (Customer)</li>
+							</ul>
+						</li>
+						<li>Customer Admin
+							<ul>
+								<li>User (Customer)</li>
+								<li>Read-Only User (Customer)</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	
 		
 		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
