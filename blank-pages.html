@@ -75,7 +75,7 @@ for (i = 0; i &lt; NNNN.length; i++) {
 			
 			<div class="d-flex flex-row justify-content-between p-2">
 				<h5>Bootstrap</h5>
-				<button class="btn btn-outline-dark" onClick="copyText('bootstrapPage')">copy</button>
+				<button class="btn btn-outline-dark" data-clipboard-target="#bootstrapPage">copy</button>
 			</div>
 			<div class="row">
 				<pre class="w-100">
@@ -142,17 +142,16 @@ for (i = 0; i &lt; NNNN.length; i++) {
 			</ul>
 		</div>
 			
-<textarea id="bootstrapPage">
-&lt;!doctype html&gt;
+<textarea id="bootstrapPage">&lt;!doctype html&gt;
 &lt;html lang="en"&gt;
 	&lt;head&gt;
 		&lt;meta charset="utf-8"&gt;
-		&lt;title&gt;Helloworld!&lt;/title&gt;
+		&lt;title&gt;Bootstrap&lt;/title&gt;
 		&lt;meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"&gt;
 		&lt;link rel="shortcut icon" type="image/x-icon" href="https://getbootstrap.com/docs/4.0/assets/img/favicons/favicon-32x32.png" alt="Favicon"&gt;
 		&lt;link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"&gt;
+		&lt;link rel="stylesheet" href="fonts.css"&gt;
 		&lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"&gt;
-		
 	&lt;/head&gt;
 	&lt;body&gt;
 		
@@ -160,8 +159,7 @@ for (i = 0; i &lt; NNNN.length; i++) {
 		&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"&gt;&lt;/script&gt;
 		&lt;script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"&gt;&lt;/script&gt;
 	&lt;/body&gt;
-&lt;/html&gt;
-</textarea>
+&lt;/html&gt;</textarea>
 <textarea id="materializePage">
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
@@ -185,6 +183,7 @@ for (i = 0; i &lt; NNNN.length; i++) {
 		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
 		
 		<script>
 			var encodedPage = encodeURIComponent(document.getElementById("bootstrapPage"));
@@ -198,9 +197,38 @@ for (i = 0; i &lt; NNNN.length; i++) {
 				document.execCommand("copy");
 			}
 		
-			
+			$(function(){
+                new ClipboardJS('.btn');
+                function cors() {
+					jQuery.ajaxPrefilter(function(options) {
+						if (options.crossDomain && jQuery.support.cors) {
+							options.url = 'https://agile-basin-53359.herokuapp.com/' + options.url;
+						}
+					});
+				}
+                
+                cors()
+                
+                $.ajax({
+						url: 'https://cdnjs.com/libraries/font-awesome',
+						success: function(data) {
+							var doc = $(data);
+							var fontAwesomeURLs = $(doc).find('.library-url');
+                            var faLink = 'https://cdnjs.cloudflare.com/ajax/libs/' + fontAwesomeURLs.eq(1).html();
+                           /* $('#bootstrapPage').html(decodeURIComponent('%3C%21doctype%20html%3E%0D%0A%3Chtml%20lang%3D%22en%22%3E%0D%0A%09%3Chead%3E%0D%0A%09%09%3Cmeta%20charset%3D%22utf-8%22%3E%0D%0A%09%09%3Ctitle%3EBootstrap%3C%2Ftitle%3E%0D%0A%09%09%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%2C%20initial-scale%3D1%2C%20shrink-to-fit%3Dno%22%3E%0D%0A%09%09%3Clink%20rel%3D%22shortcut%20icon%22%20type%3D%22image%2Fx-icon%22%20href%3D%22https%3A%2F%2Fgetbootstrap.com%2Fdocs%2F4.0%2Fassets%2Fimg%2Ffavicons%2Ffavicon-32x32.png%22%20alt%3D%22Favicon%22%3E%0D%0A%09%09%3Clink%20rel%3D%22stylesheet%22%20href%3D%22') + faLink + decodeURIComponent('%22%3E%0D%0A%09%09%3Clink%20rel%3D%22stylesheet%22%20href%3D%22fonts.css%22%3E%0D%0A%09%09%3Clink%20rel%3D%22stylesheet%22%20href%3D%22https%3A%2F%2Fmaxcdn.bootstrapcdn.com%2Fbootstrap%2F4.3.1%2Fcss%2Fbootstrap.min.css%22%3E%0D%0A%09%3C%2Fhead%3E%0D%0A%09%3Cbody%3E%0D%0A%09%09%0D%0A%09%09%3Cscript%20src%3D%22https%3A%2F%2Fcode.jquery.com%2Fjquery-3.4.1.min.js%22%3E%3C%2Fscript%3E%0D%0A%09%09%3Cscript%20src%3D%22https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Fpopper.js%2F1.12.9%2Fumd%2Fpopper.min.js%22%3E%3C%2Fscript%3E%0D%0A%09%09%3Cscript%20src%3D%22https%3A%2F%2Fmaxcdn.bootstrapcdn.com%2Fbootstrap%2F4.3.1%2Fjs%2Fbootstrap.min.js%22%3E%3C%2Fscript%3E%0D%0A%09%3C%2Fbody%3E%0D%0A%3C%2Fhtml%3E')) */
+                            
+						},
+                        error: function (jqXHR, exception) {
+                       
+    }
+					});
+            });
 		</script>
 	</body>
 </html>
 
 
+
+
+		
+	
