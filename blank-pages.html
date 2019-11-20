@@ -83,7 +83,7 @@ for (i = 0; i &lt; NNNN.length; i++) {
                             <div class="input-group">
                                 <input id="githubifyOutput" class="form-control">
                                 <div class="input-group-append">
-                                    <button class="btn btn-outline-dark" data-clipboard-target="#githubifyOutput">Copy</button>
+                                    <a class="btn btn-outline-dark" target="_blank" href="#" id="githubifyGo" data-clipboard-target="#githubifyOutput">GO <i class="fas fa-external-link-alt"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -263,7 +263,9 @@ for (i = 0; i &lt; NNNN.length; i++) {
                     if($(this).val().match(/http/g) != null){
                         $('#githubifyOutput').val($(this).val().replace(/https\:\/\/hempflinga\.github\.io\//g,'smb:///Users/hempflinga/Documents/GitHub/'))
                     } else {
-                        $('#githubifyOutput').val($(this).val().replace(/file\:\/\/\/Users\/hempflinga\/Documents\/GitHub\//g,'https://hempflinga.github.io/'))
+                        var url = $(this).val().replace(/file\:\/\/\/Users\/hempflinga\/Documents\/GitHub\//g,'https://hempflinga.github.io/')
+                        $('#githubifyOutput').val(url)
+                        $('#githubifyGo').attr('href',url)
                     }
                 });
                 
@@ -272,8 +274,6 @@ for (i = 0; i &lt; NNNN.length; i++) {
                         $('#jsdelivrfyOutput').val($(this).val().replace(/https\:\/\/www\.npmjs\.com\/package/g,'https://cdn.jsdelivr.net/npm') + '/')
                     } else if($(this).val().match(/github/g) != null) {
                         $('#jsdelivrfyOutput').val($(this).val().replace(/https\:\/\/github\.com/g,'https://cdn.jsdelivr.net/gh') + '/')
-                        //https://github.com/jquery/jquery
-                        //https://cdn.jsdelivr.net/gh/jquery/jquery/
                     }
                 });
                 
