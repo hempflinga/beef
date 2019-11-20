@@ -71,6 +71,42 @@ for (i = 0; i &lt; NNNN.length; i++) {
 	CODE
 }
 				</textarea>
+                
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col">
+                            <label for="githubify">githubify</label>
+                            <input id="githubify" class="form-control">
+                        </div>
+                        <div class="col">
+                            <label for="githubify"><i class="fab fa-github-square mr-2"></i>githubify output</label>
+                            <div class="input-group">
+                                <input id="githubifyOutput" class="form-control">
+                                <div class="input-group-append">
+                                    <button class="btn btn-outline-dark" data-clipboard-target="#githubifyOutput">Copy</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col">
+                            <label for="jsdelivrfy">jsdelivrfy</label>
+                            <input id="jsdelivrfy" class="form-control">
+                        </div>
+                        <div class="col">
+                            <label for="githubify"><i class="fab fa-js-square mr-2"></i></i>jsdelivr output</label>
+                            <div class="input-group">
+                                <input id="jsdelivrfyOutput" class="form-control">
+                                <div class="input-group-append">
+                                    <button class="btn btn-outline-dark" data-clipboard-target="#jsdelivrfyOutput">Copy</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 			</div>
 			
 			<div class="d-flex flex-row justify-content-between p-2">
@@ -222,6 +258,25 @@ for (i = 0; i &lt; NNNN.length; i++) {
                        
     }
 					});
+                    
+                $('#githubify').keyup(function(){
+                    if($(this).val().match(/http/g) != null){
+                        $('#githubifyOutput').val($(this).val().replace(/https\:\/\/hempflinga\.github\.io\//g,'smb:///Users/hempflinga/Documents/GitHub/'))
+                    } else {
+                        $('#githubifyOutput').val($(this).val().replace(/file\:\/\/\/Users\/hempflinga\/Documents\/GitHub\//g,'https://hempflinga.github.io/'))
+                    }
+                });
+                
+                $('#jsdelivrfy').keyup(function(){
+                    if($(this).val().match(/npm/g) != null){
+                        $('#jsdelivrfyOutput').val($(this).val().replace(/https\:\/\/www\.npmjs\.com\/package/g,'https://cdn.jsdelivr.net/npm') + '/')
+                    } else if($(this).val().match(/github/g) != null) {
+                        $('#jsdelivrfyOutput').val($(this).val().replace(/https\:\/\/github\.com/g,'https://cdn.jsdelivr.net/gh') + '/')
+                        //https://github.com/jquery/jquery
+                        //https://cdn.jsdelivr.net/gh/jquery/jquery/
+                    }
+                });
+                
             });
 		</script>
 	</body>
