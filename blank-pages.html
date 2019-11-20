@@ -105,6 +105,15 @@ for (i = 0; i &lt; NNNN.length; i++) {
                                 </div>
                             </div>
                         </div>
+                        <div class="col">
+                            <label for="srcify"><i class="fab fa-js-square mr-2"></i></i>srcify output</label>
+                            <div class="input-group">
+                                <input id="srcifyOutput" class="form-control">
+                                <div class="input-group-append">
+                                    <button class="btn btn-outline-dark" data-clipboard-target="#srcifyOutput">Copy</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 			</div>
@@ -220,6 +229,7 @@ for (i = 0; i &lt; NNNN.length; i++) {
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/project-name-generator@2.1.7/src/generator-bin.js"></script>
 		
 		<script>
 			var encodedPage = encodeURIComponent(document.getElementById("bootstrapPage"));
@@ -235,6 +245,8 @@ for (i = 0; i &lt; NNNN.length; i++) {
 		
 			$(function(){
                 new ClipboardJS('.btn');
+                //var generate = require('project-name-generator');
+                
                 function cors() {
 					jQuery.ajaxPrefilter(function(options) {
 						if (options.crossDomain && jQuery.support.cors) {
@@ -270,11 +282,16 @@ for (i = 0; i &lt; NNNN.length; i++) {
                 });
                 
                 $('#jsdelivrfy').keyup(function(){
+                    var t = ;
                     if($(this).val().match(/npm/g) != null){
-                        $('#jsdelivrfyOutput').val($(this).val().replace(/https\:\/\/www\.npmjs\.com\/package/g,'https://cdn.jsdelivr.net/npm') + '/')
+                        t = $(this).val().replace(/https\:\/\/www\.npmjs\.com\/package/g,'https://cdn.jsdelivr.net/npm') + '/';
+                        
                     } else if($(this).val().match(/github/g) != null) {
-                        $('#jsdelivrfyOutput').val($(this).val().replace(/https\:\/\/github\.com/g,'https://cdn.jsdelivr.net/gh') + '/')
+                        t = $(this).val().replace(/https\:\/\/github\.com/g,'https://cdn.jsdelivr.net/gh') + '/';
                     }
+                    $('#jsdelivrfyOutput').val(t)
+                    $('#srcifyOutput').val(generate().dashed);
+                    
                 });
                 
             });
