@@ -86,6 +86,9 @@ for (i = 0; i &lt; NNNN.length; i++) {
                                     <a class="btn btn-outline-dark" target="_blank" href="#" id="githubifyGo" data-clipboard-target="#githubifyOutput">GO <i class="fas fa-external-link-alt"></i></a>
                                 </div>
                             </div>
+							
+							<label for="checkbox" class="easy-checkbox"><i class="far fa-square"></i><input type="checkbox" id="checkbox" hidden="true" checked="false"/></label>
+							
                         </div>
                     </div>
                 </div>
@@ -141,6 +144,12 @@ for (i = 0; i &lt; NNNN.length; i++) {
 		<span class="tagblue">&lt;script</span> <span class="attributeGreen">src</span>=<span class="valueOrange">&quot;https://code.jquery.com/jquery-3.4.1.min.js&quot;</span><span class="tagblue">&gt;&lt;/script&gt;</span>
 		<span class="tagblue">&lt;script</span> <span class="attributeGreen">src</span>=<span class="valueOrange">&quot;https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js&quot;</span><span class="tagblue">&gt;&lt;/script&gt;</span>
 		<span class="tagblue">&lt;script</span> <span class="attributeGreen">src</span>=<span class="valueOrange">&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js&quot;</span><span class="tagblue">&gt;&lt;/script&gt;</span>
+                <span class="tagblue">&lt;script</span> <span class="attributeGreen">src</span>=<span class="valueOrange">&quot;https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js&quot;</span><span class="tagblue">&gt;&lt;/script&gt;</span>
+                <span class="tagblue">&lt;script&gt;</span>
+                    $(<span class="tagblue">function</span>(){
+                        <span class="tagblue">new</span> ClipboardJS(<span class="valueOrange">'.btn'</span>);
+                    });
+                <span class="tagblue">&lt;/script&gt;</span>
 	<span class="tagblue">&lt;/body&gt;</span>
 <span class="tagblue">&lt;/html&gt;</span>
 					</code>
@@ -203,6 +212,13 @@ for (i = 0; i &lt; NNNN.length; i++) {
 		&lt;script src="https://code.jquery.com/jquery-3.4.1.min.js"&gt;&lt;/script&gt;
 		&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"&gt;&lt;/script&gt;
 		&lt;script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"&gt;&lt;/script&gt;
+        &lt;script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"&gt;&lt;/script&gt;
+        &lt;script&gt;
+            $(function(){
+                new ClipboardJS('.btn');
+                
+            });
+        &lt;/script&gt;
 	&lt;/body&gt;
 &lt;/html&gt;</textarea>
 <textarea id="materializePage">
@@ -2475,7 +2491,7 @@ for (i = 0; i &lt; NNNN.length; i++) {
                     if($(this).val().match(/http/g) != null){
                         $('#githubifyOutput').val($(this).val().replace(/https\:\/\/hempflinga\.github\.io\//g,'smb:///Users/hempflinga/Documents/GitHub/'))
                     } else {
-                        var url = $(this).val().replace(/file\:\/\/\/Users\/hempflinga\/Documents\/GitHub\//g,'https://hempflinga.github.io/')
+                        var url = $(this).val().replace(/file.*?GitHub/gi,'https://hempflinga.github.io')
                         $('#githubifyOutput').val(url)
                         $('#githubifyGo').attr('href',url)
                     }
@@ -2512,6 +2528,8 @@ for (i = 0; i &lt; NNNN.length; i++) {
                         return match.toUpperCase();
                     });
                 }
+				
+
             });
 		</script>
 	</body>
