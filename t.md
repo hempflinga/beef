@@ -16,6 +16,8 @@ Below is the price list for RESEARCH & DESIGN WORK ONLY (AUD$).
 
 Please note: One Tribe DO NOT tattoo therefore you will need to consult with your tattooist for costs on the actual ink work after you have received your design from us.
 
+Item|Cost
+----|----
 Tribal Band (Maximum height 8cm):|$300.00
 Quarter sleeve (Shoulder piece):|$300.00
 Half sleeve (Top of shoulder to elbow) Outer arm ONLY:|$500.00 (extra $50 for inner arm)
@@ -66,7 +68,6 @@ CLIENT PROFILE FORM
 #####We ask that you answer the questions in the form thoroughly and to the best of your knowledge. Your answers will enable us to understand more about you and your tattoo design request. This stage requires patience and is the true beauty of the journey as it involves taking your own time out to research, reconnect and understand your Filipino ancestry. 
 Please provide as much information as you like and only what you are comfortable with sharing.
 Thank you.
---------------------------------------------------------------------------------------------------------------------------------------
 
 1.	PERSONAL DETAILS (CLIENT)
     1.	FIRST NAME only: Andrew
