@@ -62,7 +62,7 @@ After you get your tattoo and we have seen photos, we will then explain in furth
 
 CLIENT PROFILE FORM
 
-We ask that you answer the questions in the form thoroughly and to the best of your knowledge. Your answers will enable us to understand more about you and your tattoo design request. This stage requires patience and is the true beauty of the journey as it involves taking your own time out to research, reconnect and understand your Filipino ancestry. 
+#####We ask that you answer the questions in the form thoroughly and to the best of your knowledge. Your answers will enable us to understand more about you and your tattoo design request. This stage requires patience and is the true beauty of the journey as it involves taking your own time out to research, reconnect and understand your Filipino ancestry. 
 Please provide as much information as you like and only what you are comfortable with sharing.
 Thank you.
 --------------------------------------------------------------------------------------------------------------------------------------
@@ -136,12 +136,12 @@ Thank you.
 
 
 6.	TATTOO DETAILS
-    8.	Where on your body will the tattoo be placed?
-    9.	Which tattoo framework/size are you after? (ie. Shoulder piece, band, sleeve etc.)
-    10.	Do you have a particular tattoo design that inspires you? If so, please provide a photo.
-    11.	Would you like to dedicate a part of your tattoo design to a special family member, a friend or to someone/something very dear to you? (Please provide info. Ie. Name, DOB, Occupation, Place of Birth or other)
-    12.	Would you like to incorporate a particular insignia, symbol, text, picture or totem within your overall tattoo design? If so, please provide info and/or photo.
-    13.	Other relevant info:
+    1.	Where on your body will the tattoo be placed?
+    2.	Which tattoo framework/size are you after? (ie. Shoulder piece, band, sleeve etc.)
+    3.	Do you have a particular tattoo design that inspires you? If so, please provide a photo.
+    4.	Would you like to dedicate a part of your tattoo design to a special family member, a friend or to someone/something very dear to you? (Please provide info. Ie. Name, DOB, Occupation, Place of Birth or other)
+    5.	Would you like to incorporate a particular insignia, symbol, text, picture or totem within your overall tattoo design? If so, please provide info and/or photo.
+    6.	Other relevant info:
 
 
 -END OF DOCUMENT-
