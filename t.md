@@ -68,84 +68,80 @@ Thank you.
 --------------------------------------------------------------------------------------------------------------------------------------
 
 1.	PERSONAL DETAILS (CLIENT)
-a.	FIRST NAME only: Andrew
-b.	Country & city of residence: United States, San Antonio, Texas
-c.	Contact no: +1 847-727-9445
-d.	Email address:andrew.o.hempfling@gmail.com
+    1.	FIRST NAME only: Andrew
+    2.	Country & city of residence: United States, San Antonio, Texas
+    3.	Contact no: +1 847-727-9445
+    4.	Email address:andrew.o.hempfling@gmail.com
 
-e.	DOB: 30, October, 1987
-f.	Occupation: USer Experience Designer
-g.	Place of Birth: Chicago, Illinois, USA
-h.	What are you most passionate about in life?
-i.	What are your goals in life?
-j.	What are your achievements? (eg. Employment, education, sports, family etc.)
-k.	Tattooist Name/Shop (If applicable): 
+    5.	DOB: 30, October, 1987
+    6.	Occupation: USer Experience Designer
+    7.	Place of Birth: Chicago, Illinois, USA
+    8.	What are you most passionate about in life?
+    9.	What are your goals in life?
+    10.	What are your achievements? (eg. Employment, education, sports, family etc.)
+    11.	Tattooist Name/Shop (If applicable): 
 
 
 2.	PARENTS 
-a.	Father – FIRST NAME only: Tom
-b.	DOB:
-c.	Occupation:
-d.	Place of Birth:
+    1.	Father – FIRST NAME only: Tom
+    2.	DOB:
+    3.	Occupation:
+    4.	Place of Birth:
 
-e.	Mother – FIRST NAME only: Alicia
-f.	DOB:
-g.	Occupation:
-h.	Place of Birth:
+    5.	Mother – FIRST NAME only: Alicia
+    6.	DOB:
+    7.	Occupation:
+    8.	Place of Birth:
 
 
 3.	SIBLINGS
-a.	Sibling1 – FIRST NAME only (Male/Female): Martin
-b.	DOB:
-c.	Occupation:
-d.	Place of Birth:
+    1.	Sibling1 – FIRST NAME only (Male/Female): Martin
+    2.	DOB:
+    3.	Occupation:
+    4.	Place of Birth:
 
+    5.	Sibling2 – FIRST NAME only (Male/Female):
+    6.	DOB:
+    7.	Occupation:
+    8.	Place of Birth:
 
-
-
-e.	Sibling2 – FIRST NAME only (Male/Female):
-f.	DOB:
-g.	Occupation:
-h.	Place of Birth:
-
-
-i.	Sibling3 – FIRST NAME only (Male/Female):
-j.	DOB:
-k.	Occupation:
-l.	Place of Birth:
+    9.	Sibling3 – FIRST NAME only (Male/Female):
+    10.	DOB:
+    11.	Occupation:
+    12.	Place of Birth:
 
 
 4.	CHILDREN
-a.	Child1- Male/Female:
-b.	DOB:
-c.	Place of Birth:
+    1.	Child1- Male/Female:
+    2.	DOB:
+    3.	Place of Birth:
 
-d.	Child2 – Male/Female:
-e.	DOB:
-f.	Place of Birth:
+    4.	Child2 – Male/Female:
+    5.	DOB:
+    6.	Place of Birth:
 
-g.	Child3 – Male/Female:
-h.	DOB:
-i.	Place of Birth:
+    7.	Child3 – Male/Female:
+    7.	DOB:
+    9.	Place of Birth:
 
 
 5.	FAMILY HISTORY DETAILS
-a.	Which ISLAND in the Philippines are you from?(ie. Luzon, Visayas, Mindanao)
-b.	Which PROVINCE & CITY in the Philippines are you from?
-c.	Which FILIPINO DIALECT/s do you or your family speak?
-d.	Where in the Philippines did your ancestors originally come from and which dialect did they speak?
-e.	What did your ancestors do for a living?
-f.	Which particular Philippine TRIBE does your family belong or closely linked to?
-g.	Other relevant info: 
+    1.	Which ISLAND in the Philippines are you from?(ie. Luzon, Visayas, Mindanao)
+    2.	Which PROVINCE & CITY in the Philippines are you from?
+    3.	Which FILIPINO DIALECT/s do you or your family speak?
+    4.	Where in the Philippines did your ancestors originally come from and which dialect did they speak?
+    5.	What did your ancestors do for a living?
+    6.	Which particular Philippine TRIBE does your family belong or closely linked to?
+    7.	Other relevant info: 
 
 
 6.	TATTOO DETAILS
-a.	Where on your body will the tattoo be placed?
-b.	Which tattoo framework/size are you after? (ie. Shoulder piece, band, sleeve etc.)
-c.	Do you have a particular tattoo design that inspires you? If so, please provide a photo.
-d.	Would you like to dedicate a part of your tattoo design to a special family member, a friend or to someone/something very dear to you? (Please provide info. Ie. Name, DOB, Occupation, Place of Birth or other)
-e.	Would you like to incorporate a particular insignia, symbol, text, picture or totem within your overall tattoo design? If so, please provide info and/or photo.
-f.	Other relevant info:
+    8.	Where on your body will the tattoo be placed?
+    9.	Which tattoo framework/size are you after? (ie. Shoulder piece, band, sleeve etc.)
+    10.	Do you have a particular tattoo design that inspires you? If so, please provide a photo.
+    11.	Would you like to dedicate a part of your tattoo design to a special family member, a friend or to someone/something very dear to you? (Please provide info. Ie. Name, DOB, Occupation, Place of Birth or other)
+    12.	Would you like to incorporate a particular insignia, symbol, text, picture or totem within your overall tattoo design? If so, please provide info and/or photo.
+    13.	Other relevant info:
 
 
 -END OF DOCUMENT-
