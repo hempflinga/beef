@@ -16,23 +16,23 @@ Below is the price list for RESEARCH & DESIGN WORK ONLY (AUD$).
 
 Please note: One Tribe DO NOT tattoo therefore you will need to consult with your tattooist for costs on the actual ink work after you have received your design from us.
 
-				Tribal Band (Maximum height 8cm):				$300.00
-				Quarter sleeve (Shoulder piece):					$300.00
-				Half sleeve (Top of shoulder to elbow) Outer arm ONLY: 	$500.00 (extra $50 for inner arm)
-				¾ sleeve (Top of shoulder to mid-forearm): 			$600.00
-				Full sleeve (Top of shoulder to wrist): 				$700.00
+	Tribal Band (Maximum height 8cm):				$300.00
+	Quarter sleeve (Shoulder piece):					$300.00
+	Half sleeve (Top of shoulder to elbow) Outer arm ONLY: 	$500.00 (extra $50 for inner arm)
+	¾ sleeve (Top of shoulder to mid-forearm): 			$600.00
+	Full sleeve (Top of shoulder to wrist): 				$700.00
 
-				Calf piece (Back of lower leg):					$300.00
-				Half leg (Knee to ankle):						$500.00
-				¾ leg (Mid-thigh to ankle):						$600.00
-				Full leg (Hip to ankle):						$700.00
+	Calf piece (Back of lower leg):					$300.00
+	Half leg (Knee to ankle):						$500.00
+	¾ leg (Mid-thigh to ankle):						$600.00
+	Full leg (Hip to ankle):						$700.00
 
-				Single chest piece:							$300.00
-				Double chest piece:							$500.00
+	Single chest piece:							$300.00
+	Double chest piece:							$500.00
 
-				Upper back piece (Single shoulder blade):			$300.00
-				Half back piece:							$400.00
-				Full back piece:							$700.00
+	Upper back piece (Single shoulder blade):			$300.00
+	Half back piece:							$400.00
+	Full back piece:							$700.00
 PAYMENT & BOOKING
 
 We undertake on average three designs per month and at most times get booked out in months ahead, so we kindly please ask for your patience after you have sent through your Profile Form.
