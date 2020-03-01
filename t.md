@@ -136,6 +136,7 @@ Thank you.
 
 6.	TATTOO DETAILS
     1.	Where on your body will the tattoo be placed?
+     Left Shoulder
     2.	Which tattoo framework/size are you after? (ie. Shoulder piece, band, sleeve etc.)
     3.	Do you have a particular tattoo design that inspires you? If so, please provide a photo.
     4.	Would you like to dedicate a part of your tattoo design to a special family member, a friend or to someone/something very dear to you? (Please provide info. Ie. Name, DOB, Occupation, Place of Birth or other)
