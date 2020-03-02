@@ -62,7 +62,7 @@ After you get your tattoo and we have seen photos, we will then explain in furth
 
 CLIENT PROFILE FORM
 
-#####We ask that you answer the questions in the form thoroughly and to the best of your knowledge. Your answers will enable us to understand more about you and your tattoo design request. This stage requires patience and is the true beauty of the journey as it involves taking your own time out to research, reconnect and understand your Filipino ancestry. 
+We ask that you answer the questions in the form thoroughly and to the best of your knowledge. Your answers will enable us to understand more about you and your tattoo design request. This stage requires patience and is the true beauty of the journey as it involves taking your own time out to research, reconnect and understand your Filipino ancestry. 
 Please provide as much information as you like and only what you are comfortable with sharing.
 Thank you.
 
@@ -78,26 +78,26 @@ Thank you.
     8.	What are you most passionate about in life?
     9.	What are your goals in life?
     10.	What are your achievements? (eg. Employment, education, sports, family etc.)
-    11.	Tattooist Name/Shop (If applicable): 
+    11.	Tattooist Name/Shop (If applicable): Still looking
 
 
 2.	PARENTS 
     1.	Father – FIRST NAME only: Tom
-    2.	DOB:
-    3.	Occupation:
-    4.	Place of Birth:
+    2.	DOB: 31, May, 1945
+    3.	Occupation: Retired
+    4.	Place of Birth: Chicago, Illinois, USA
 
     5.	Mother – FIRST NAME only: Alicia
-    6.	DOB:
-    7.	Occupation:
-    8.	Place of Birth:
+    6.	DOB: 22, May, 1958
+    7.	Occupation: Arts Center owner
+    8.	Place of Birth: Chicago, Illinois, USA
 
 
 3.	SIBLINGS
     1.	Sibling1 – FIRST NAME only (Male/Female): Martin
-    2.	DOB:
-    3.	Occupation:
-    4.	Place of Birth:
+    2.	DOB: 24, September, 1990
+    3.	Occupation: Personal Trainer
+    4.	Place of Birth: Chicago, Illinois, USA
 
     5.	Sibling2 – FIRST NAME only (Male/Female):
     6.	DOB:
@@ -126,9 +126,13 @@ Thank you.
 
 5.	FAMILY HISTORY DETAILS
     1.	Which ISLAND in the Philippines are you from?(ie. Luzon, Visayas, Mindanao)
+      -N/A
     2.	Which PROVINCE & CITY in the Philippines are you from?
+      -N/A
     3.	Which FILIPINO DIALECT/s do you or your family speak?
+      -Grandparents spoke Ilocano
     4.	Where in the Philippines did your ancestors originally come from and which dialect did they speak?
+      -Grandparents both came from Luzon. My grandfather grew up in Tarlac and my grandmother grew up in La Union. My grandfather fought in World War II and they moved to America and started a family.
     5.	What did your ancestors do for a living?
     6.	Which particular Philippine TRIBE does your family belong or closely linked to?
     7.	Other relevant info: 
@@ -136,7 +140,7 @@ Thank you.
 
 6.	TATTOO DETAILS
     1.	Where on your body will the tattoo be placed?
-     Left Shoulder
+     -Left Shoulder, half sleeve, outer and inner arm
     2.	Which tattoo framework/size are you after? (ie. Shoulder piece, band, sleeve etc.)
     3.	Do you have a particular tattoo design that inspires you? If so, please provide a photo.
     4.	Would you like to dedicate a part of your tattoo design to a special family member, a friend or to someone/something very dear to you? (Please provide info. Ie. Name, DOB, Occupation, Place of Birth or other)
