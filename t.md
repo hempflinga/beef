@@ -127,7 +127,7 @@ Thank you.
 
 5.	FAMILY HISTORY DETAILS
     1.	Which ISLAND in the Philippines are you from?(ie. Luzon, Visayas, Mindanao)
-      *N/A
+      * N/A
     2.	Which PROVINCE & CITY in the Philippines are you from?
       *N/A
     3.	Which FILIPINO DIALECT/s do you or your family speak?
