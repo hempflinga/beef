@@ -89,12 +89,12 @@ Thank you.
 
 
 2.	PARENTS 
-    1.	Father – FIRST NAME only: Tom
-    2.	DOB: 31, May, 1945
-    3.	Occupation: Retired
-    4.	Place of Birth: Chicago, Illinois, USA
+    a	Father – FIRST NAME only: Tom
+    b	DOB: 31, May, 1945
+    c	Occupation: Retired
+    d	Place of Birth: Chicago, Illinois, USA
 
-    5.	Mother – FIRST NAME only: Alicia
+    e	Mother – FIRST NAME only: Alicia
     6.	DOB: 22, May, 1958
     7.	Occupation: Arts Center owner
     8.	Place of Birth: Chicago, Illinois, USA
