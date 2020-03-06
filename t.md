@@ -78,6 +78,8 @@ Thank you.
     8.	What are you most passionate about in life?
      * Creativity, arts, filmmaking, writing, comedy, martial arts, overcoming depression and anger issues
     9.	What are your goals in life?
+     * figure out who I am. Part of the reason I'm getting this tattoo.
+     * Be more creative, write more. I lost years of my life and some of my creative spirit to depression and I am recovering
     10.	What are your achievements? (eg. Employment, education, sports, family etc.)
      * I've done martial arts for 15+ years, won silver and bronze in a kung fu tournament in China.
      * Several awards for film making, even gained entrance to a Chicago Filipino Film Festival.
