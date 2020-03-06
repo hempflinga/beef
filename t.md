@@ -76,9 +76,13 @@ Thank you.
     6.	Occupation: USer Experience Designer
     7.	Place of Birth: Chicago, Illinois, USA
     8.	What are you most passionate about in life?
-     -Creativity, arts, filmmaking, writing, comedy, martial arts, overcoming depression and anger issues
+     * Creativity, arts, filmmaking, writing, comedy, martial arts, overcoming depression and anger issues
     9.	What are your goals in life?
     10.	What are your achievements? (eg. Employment, education, sports, family etc.)
+     * I've done martial arts for 15+ years, won silver and bronze in a kung fu tournament in China.
+     * Several awards for film making, even gained entrance to a Chicago Filipino Film Festival.
+     * Helped start an improv theatre and built a community of talented, passionate people
+     * Have a well-paying job that supports me after YEARS of being broke.
     11.	Tattooist Name/Shop (If applicable): Still looking
 
 
@@ -129,28 +133,28 @@ Thank you.
     1.	Which ISLAND in the Philippines are you from?(ie. Luzon, Visayas, Mindanao)
       * N/A
     2.	Which PROVINCE & CITY in the Philippines are you from?
-      *N/A
+      * N/A
     3.	Which FILIPINO DIALECT/s do you or your family speak?
-      *Grandparents spoke Ilocano
+      * Grandparents spoke Ilocano
     4.	Where in the Philippines did your ancestors originally come from and which dialect did they speak?
-      *Grandparents both came from Luzon. My grandfather grew up in Anao Tarlac and my grandmother grew up in La Union. My grandfather fought in World War II and they moved to America and started a family.
+      * Grandparents both came from Luzon. My grandfather grew up in Anao Tarlac and my grandmother grew up in La Union. My grandfather fought in World War II and they moved to America and started a family.
     5.	What did your ancestors do for a living?
     6.	Which particular Philippine TRIBE does your family belong or closely linked to?
-     *I don't know, but I REALLY want to know.
+     * I don't know, but I REALLY want to know.
     7.	Other relevant info: 
      * My mother did a DNA test and found that there is no spanish DNA in her lineage.
 
 
 6.	TATTOO DETAILS
     1.	Where on your body will the tattoo be placed?
-     -Left Shoulder, half sleeve, outer and inner arm
+     * Left Shoulder, half sleeve, outer and inner arm
     2.	Which tattoo framework/size are you after? (ie. Shoulder piece, band, sleeve etc.)
     3.	Do you have a particular tattoo design that inspires you? If so, please provide a photo.
     4.	Would you like to dedicate a part of your tattoo design to a special family member, a friend or to someone/something very dear to you? (Please provide info. Ie. Name, DOB, Occupation, Place of Birth or other)
-     *no thanks
+     * no thanks
     5.	Would you like to incorporate a particular insignia, symbol, text, picture or totem within your overall tattoo design? If so, please provide info and/or photo.
     6.	Other relevant info:
-     -I'm not really a big fan of the 8-point sun design that I've seen on a lot of Filipino tattoos
+     * I'm not really a big fan of the 8-point sun design that I've seen on a lot of Filipino tattoos
 
 
 -END OF DOCUMENT-
