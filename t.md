@@ -76,7 +76,13 @@ Thank you.
     6.	Occupation: USer Experience Designer
     7.	Place of Birth: Chicago, Illinois, USA
     8.	What are you most passionate about in life?
-     * Creativity, arts, filmmaking, writing, comedy, martial arts, overcoming depression and anger issues
+     * Creativity
+     * Arts
+     * Filmmaking
+     * Writing
+     * Comedy
+     * Martial arts
+     * Overcoming depression and anger issues
     9.	What are your goals in life?
      * figure out who I am. Part of the reason I'm getting this tattoo.
      * Be more creative, write more. I lost years of my life and some of my creative spirit to depression and I am recovering
